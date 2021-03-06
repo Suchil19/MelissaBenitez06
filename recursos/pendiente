@@ -1,0 +1,56 @@
+<!--FEATURES SECTION-->
+	<section class="features section-padding">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-8">
+					<div class="section-title">
+						<h2>Noticias<span> Nuevas</span></h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="owl-carousel features-carousel">
+					<div class="feature-item">
+						<div class="icon"><i class="fas fa-code"></i></div>
+						<h3>Psicología</h3>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+						   Voluptatibus harum debitis qui vitae possimus natus quo
+						   voluptates quos veniam? Fugiat sint ducimus quos</p>
+					</div>
+					<div class="feature-item">
+						<div class="icon"><i class="fas fa-code"></i></div>
+						<h3>Aceites</h3>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+						   Voluptatibus harum debitis qui vitae possimus natus quo
+						   voluptates quos veniam? Fugiat sint ducimus quos</p>
+					</div>
+					<div class="feature-item">
+						<div class="icon"><i class="fas fa-code"></i></div>
+						<h3>Educación</h3>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+						   Voluptatibus harum debitis qui vitae possimus natus quo
+						   voluptates quos veniam? Fugiat sint ducimus quos</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+      $('.features-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+        },
+        600:{
+            items:2,
+        },
+        1000:{
+            items:3,
+        }
+    }
+});
